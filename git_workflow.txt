@@ -1,0 +1,26 @@
+// pull to get updated master branch
+:git branch
+* master
+
+// if master isn't selected
+:git checkout master
+
+:git pull origin master
+
+// make new branch
+:git checkout -b [new branch name]
+
+// make changes, git add new files, git rm files to delete
+// commit to local branch
+:git commit -m "[description of changes in this commit]"
+
+// switch back to master and update (IMPORTANT!! to have latest version and not erase work that was checked in already in previous commits)
+:git checkout master
+:git pull origin master
+
+// merge changes to master branch
+:git merge [branch name]
+// deal with any conflicts in the merge
+
+// delete branch
+:git branch -d [branch name]
