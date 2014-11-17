@@ -27,6 +27,8 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
+HELLO I AM TESTING THE PUSH.
+
 Ruby v2.1.5
 Rails v4.1.7
 jQuery v1.11.2
